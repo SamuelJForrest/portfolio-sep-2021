@@ -267,7 +267,7 @@ html {
             bottom: 0.5em;
             img,
             svg {
-              height: fit-content;
+              width: calc(10px + 1.5vw);
               width: calc(10px + 2.5vw);
               min-width: none;
               background-color: $light-green;
@@ -649,7 +649,6 @@ html {
               img,
               svg {
                 background-color: $light-green;
-                height: calc(10px + 1vw);
                 width: calc(10px + 1vw);
                 padding: 0.5em;
                 margin-right: 0.5em;

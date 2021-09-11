@@ -382,9 +382,7 @@ html body .projects-section .project-cards .project-card .project-links {
 
 html body .projects-section .project-cards .project-card .project-links img,
 html body .projects-section .project-cards .project-card .project-links svg {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  width: calc(10px + 1.5vw);
   width: calc(10px + 2.5vw);
   min-width: none;
   background-color: #37a078;
@@ -836,7 +834,6 @@ html body .contact-section .social-links img {
   html body .projects-section .project-cards .project-card .project-links img,
   html body .projects-section .project-cards .project-card .project-links svg {
     background-color: #37a078;
-    height: calc(10px + 1vw);
     width: calc(10px + 1vw);
     padding: 0.5em;
     margin-right: 0.5em;
