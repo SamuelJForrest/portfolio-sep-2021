@@ -385,7 +385,7 @@ html body .projects-section .project-cards .project-card .project-links {
 html body .projects-section .project-cards .project-card .project-links img,
 html body .projects-section .project-cards .project-card .project-links svg {
   display: inline-block;
-  height: auto;
+  height: 100%;
   width: calc(10px + 2.5vw);
   min-width: none;
   background-color: #37a078;
@@ -411,6 +411,7 @@ html body .projects-section .project-cards .project-card .project-links a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100%;
 }
 
 html body .contact-section {

@@ -270,7 +270,7 @@ html {
             img,
             svg {
               display: inline-block;
-              height: auto;
+              height: 100%;
               width: calc(10px + 2.5vw);
               min-width: none;
               background-color: $light-green;
@@ -289,6 +289,7 @@ html {
             a {
               margin: 0;
               display: flex;
+              height: 100%;
             }
           }
         }
