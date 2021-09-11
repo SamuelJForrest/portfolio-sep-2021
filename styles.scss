@@ -649,6 +649,7 @@ html {
               img,
               svg {
                 background-color: $light-green;
+                height: calc(10px + 1vw);
                 width: calc(10px + 1vw);
                 padding: 0.5em;
                 margin-right: 0.5em;

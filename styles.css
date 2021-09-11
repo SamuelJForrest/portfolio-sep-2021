@@ -836,6 +836,7 @@ html body .contact-section .social-links img {
   html body .projects-section .project-cards .project-card .project-links img,
   html body .projects-section .project-cards .project-card .project-links svg {
     background-color: #37a078;
+    height: calc(10px + 1vw);
     width: calc(10px + 1vw);
     padding: 0.5em;
     margin-right: 0.5em;
