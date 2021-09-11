@@ -234,7 +234,7 @@ html {
           max-width: 275px;
           background-color: $darker-green;
           color: $off-white;
-          padding: 0.5em 1em 4em 1em;
+          padding: 0.5em 1em 1em 1em;
           margin: 1em 0.5em;
           border-radius: 10px;
           h3 {
@@ -261,13 +261,16 @@ html {
           }
           .project-links {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             flex-flow: wrap;
-            position: absolute;
-            bottom: 0.5em;
+            bottom: 1.5em;
+            height: auto;
+            width: 100%;
+            margin-top: 1em;
             img,
             svg {
-              width: calc(10px + 1.5vw);
+              display: inline-block;
+              height: auto;
               width: calc(10px + 2.5vw);
               min-width: none;
               background-color: $light-green;
@@ -417,7 +420,6 @@ html {
             .project-links {
               display: flex;
               flex-flow: wrap;
-              position: absolute;
               bottom: 1em;
               img,
               svg {
@@ -618,7 +620,7 @@ html {
             max-width: 400px;
             background-color: $darker-green;
             color: $off-white;
-            padding: 0.5em 1em 5em 1em;
+            padding: 0.5em 1em 1.5em 1em;
             margin: 1em 0.5em;
             border-radius: 10px;
             h3 {
@@ -644,7 +646,7 @@ html {
             .project-links {
               display: flex;
               flex-flow: wrap;
-              position: absolute;
+              // position: absolute;
               bottom: 1em;
               img,
               svg {

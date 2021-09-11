@@ -335,7 +335,7 @@ html body .projects-section .project-cards .project-card {
   max-width: 275px;
   background-color: #174634;
   color: #fcfcfc;
-  padding: 0.5em 1em 4em 1em;
+  padding: 0.5em 1em 1em 1em;
   margin: 1em 0.5em;
   border-radius: 10px;
 }
@@ -371,18 +371,21 @@ html body .projects-section .project-cards .project-card .project-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -ms-flex-flow: wrap;
       flex-flow: wrap;
-  position: absolute;
-  bottom: 0.5em;
+  bottom: 1.5em;
+  height: auto;
+  width: 100%;
+  margin-top: 1em;
 }
 
 html body .projects-section .project-cards .project-card .project-links img,
 html body .projects-section .project-cards .project-card .project-links svg {
-  width: calc(10px + 1.5vw);
+  display: inline-block;
+  height: auto;
   width: calc(10px + 2.5vw);
   min-width: none;
   background-color: #37a078;
@@ -549,7 +552,6 @@ html body .contact-section .social-links img {
     display: flex;
     -ms-flex-flow: wrap;
         flex-flow: wrap;
-    position: absolute;
     bottom: 1em;
   }
   html body .projects-section .project-cards .project-card .project-links img,
@@ -798,7 +800,7 @@ html body .contact-section .social-links img {
     max-width: 400px;
     background-color: #174634;
     color: #fcfcfc;
-    padding: 0.5em 1em 5em 1em;
+    padding: 0.5em 1em 1.5em 1em;
     margin: 1em 0.5em;
     border-radius: 10px;
   }
@@ -828,7 +830,6 @@ html body .contact-section .social-links img {
     display: flex;
     -ms-flex-flow: wrap;
         flex-flow: wrap;
-    position: absolute;
     bottom: 1em;
   }
   html body .projects-section .project-cards .project-card .project-links img,
