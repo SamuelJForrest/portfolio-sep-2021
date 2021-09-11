@@ -281,6 +281,9 @@ html {
             }
             .live-link {
               display: flex;
+              svg {
+                height: 100%;
+              }
             }
             p,
             a {

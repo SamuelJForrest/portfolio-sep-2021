@@ -401,6 +401,10 @@ html body .projects-section .project-cards .project-card .project-links .live-li
   display: flex;
 }
 
+html body .projects-section .project-cards .project-card .project-links .live-link svg {
+  height: 100%;
+}
+
 html body .projects-section .project-cards .project-card .project-links p,
 html body .projects-section .project-cards .project-card .project-links a {
   margin: 0;
