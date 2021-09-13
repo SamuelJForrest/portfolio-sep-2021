@@ -15,7 +15,9 @@ html body {
 
 html body svg {
   display: block;
-  margin: -1px 0;
+  margin: -1px;
+  padding: 0;
+  width: 100%;
 }
 
 html body .head-section {
