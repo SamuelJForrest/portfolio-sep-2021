@@ -15,7 +15,7 @@ html body {
 
 html body svg {
   display: block;
-  margin: -1px 0;
+  margin: -1px 0 -1px -1px;
   padding: 0;
 }
 
