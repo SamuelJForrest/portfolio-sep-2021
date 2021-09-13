@@ -15,6 +15,7 @@ html body {
 
 html body svg {
   display: block;
+  margin: -1px;
 }
 
 html body .head-section {
@@ -179,7 +180,6 @@ html body .head-section main .header-info .buttons .head-button {
   background-color: #f1b24a;
   padding: 0.1em 0.5em;
   margin: 0.2em;
-  color: #fcfcfc;
   text-transform: uppercase;
   font-weight: bold;
   font-family: inherit;
@@ -190,7 +190,7 @@ html body .head-section main .header-info .buttons .head-button {
 
 html body .head-section main .header-info .buttons .head-button a {
   text-decoration: none;
-  color: #fcfcfc;
+  color: #0a0c0c;
 }
 
 html body .head-section #overlay {
@@ -256,7 +256,7 @@ html body .about-section .description {
   background-color: #f1b24a;
   padding: 0 1.1em;
   margin-bottom: 1.5em;
-  color: #fcfcfc;
+  color: #0a0c0c;
   border-radius: 10px;
 }
 
@@ -441,6 +441,10 @@ html body .contact-section a {
   font-size: 7.5vw;
   margin: 0 1em 0.2em 1em;
   line-height: 0.7em;
+}
+
+html body .contact-section a:hover {
+  color: #f1b24a;
 }
 
 html body .contact-section .contact-text {
@@ -701,7 +705,6 @@ html body .contact-section .social-links img {
   }
   html body .head-section main .header-info .buttons .head-button a {
     text-decoration: none;
-    color: #fcfcfc;
   }
   html body .about-section {
     -webkit-box-orient: horizontal;
@@ -736,7 +739,6 @@ html body .contact-section .social-links img {
     background-color: #f1b24a;
     padding: 0 1.1em;
     margin-bottom: 1.5em;
-    color: #fcfcfc;
     border-radius: 10px;
   }
   html body .about-section .description p {
@@ -864,7 +866,6 @@ html body .contact-section .social-links img {
     font-size: 3.5vw;
   }
   html body .contact-section a {
-    color: #f1b24a;
     font-size: calc(5px + 2.5vw);
     margin: 0 1em 0.2em 1em;
     line-height: 0.7em;
