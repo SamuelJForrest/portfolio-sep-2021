@@ -71,7 +71,7 @@ html body .head-section nav .menu-slider {
 }
 
 html body .head-section nav .hamburger-button {
-  position: absolute;
+  position: fixed;
   z-index: 10;
   top: 7px;
   right: 3vw;

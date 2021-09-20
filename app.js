@@ -16,6 +16,9 @@ hamburgerBtn.addEventListener('click', function () {
   hamburgerBtnLines[1].classList.toggle('display-none');
   hamburgerBtnLines[2].classList.toggle('line-rotate-2');
 
+  // X becomes white anywhere on the document
+  changeLineColor('#fcfcfc');
+
   // Toggle overlay blur
   overlay.classList.toggle('overlay');
 });
@@ -29,6 +32,7 @@ navLinks.forEach(link => {
       hamburgerBtnLines[2].classList.remove('line-rotate-2');
       overlay.classList.remove('overlay');
     }, 200);
+    scrollCheck();
   });
 });
 
@@ -126,3 +130,38 @@ projects.forEach(function (project) {
     projectLinks
   );
 });
+
+// Changing hamburger menu colour
+
+// Define svg rectangles
+const wave1 = document.querySelector('.wave-1');
+const wave2 = document.querySelector('.wave-2');
+const wave3 = document.querySelector('.wave-3');
+
+const wave1coords = wave1.getBoundingClientRect();
+const wave2coords = wave2.getBoundingClientRect();
+const wave3coords = wave3.getBoundingClientRect();
+
+const scrollCheck = function () {
+  if (window.pageYOffset < wave1coords.bottom) {
+    changeLineColor('#fcfcfc');
+  }
+  if (window.pageYOffset > wave1coords.bottom) {
+    changeLineColor('#22684d');
+  }
+  if (window.pageYOffset > wave2coords.bottom) {
+    changeLineColor('#fcfcfc');
+  }
+};
+
+const changeLineColor = function (color) {
+  hamburgerBtnLines[0].style.backgroundColor = color;
+  hamburgerBtnLines[1].style.backgroundColor = color;
+  hamburgerBtnLines[2].style.backgroundColor = color;
+};
+
+window.addEventListener('scroll', scrollCheck);
+
+console.log(window.pageYOffset);
+console.log(wave1coords.bottom);
+console.log(window.pageYOffset + wave1coords.bottom);
