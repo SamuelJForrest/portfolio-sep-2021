@@ -56,6 +56,15 @@ const projects = [
     gitLink: 'https://github.com/SamuelJForrest/weather-app',
     gitLinkAlt: 'Link to GitHub repository',
   },
+  {
+    name: 'Budgeting App',
+    description:
+      'A budgeting app to calculate incomings and expenses. User can also delete and sort any inputted items. ',
+    image: './img/projects/budget.webp',
+    languages: ['HTML', 'SASS', 'JavaScript'],
+    hosted: 'https://boring-ardinghelli-9e3a3c.netlify.app/',
+    gitLink: 'https://github.com/SamuelJForrest/finance-app',
+  },
 ];
 
 // Loop over projects and dynamically create project cards for each one
